@@ -1,0 +1,25 @@
+{
+  "name": "BlackRoad-Interactive",
+  "org": "BlackRoad-OS-Inc",
+  "category": "gaming",
+  "title": "BlackRoad Interactive",
+  "deploy": {
+    "target": "gematria",
+    "path": "/var/www/blackroad/BlackRoad-Interactive",
+    "ssl": "auto",
+    "cdn": true
+  },
+  "mirrors": {
+    "gitea": "https://git.blackroad.io/BlackRoad-OS-Inc/BlackRoad-Interactive",
+    "github": "https://github.com/BlackRoad-OS-Inc/BlackRoad-Interactive"
+  },
+  "ci": {
+    "on_push": ["build", "deploy"],
+    "on_pr": ["lint", "audit"]
+  },
+  "monitoring": {
+    "uptime": true,
+    "analytics": "roadanalytics",
+    "alerts": "nats"
+  }
+}
