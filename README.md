@@ -1,31 +1,20 @@
-# BlackRoad Interactive
+# BlackRoad-Interactive
 
-> BlackRoad Interactive — gaming, metaverse, interactive experiences, simulations
+BlackRoad Interactive — gaming, metaverse, interactive experiences, simulations. Proprietary BlackRoad OS, Inc.
 
-## About
-**BlackRoad Interactive** is part of the [BlackRoad OS](https://blackroad.io) ecosystem — sovereign, privacy-first infrastructure replacing fragmented digital tools.
+## Organization
 
-**Vertical**: Gaming
-**Company**: BlackRoad OS, Inc. (Delaware C-Corp)
-**Founded**: November 17, 2025
+**BlackRoad-OS-Inc** — Corporate root — all IP, strategy, and governance
 
-## Products
-RoadWorld
-- Headlights VR
-- Game Engine
-- Physics Sandbox
-- Simulation Lab
+## BlackRoad OS
 
-## Development
-See [RoadCode/](./RoadCode/) for workspace, TODOs, and roadmap.
+BlackRoad OS is a distributed AI operating system — 20 domains, 668 repositories, 1,000 AI agents, and sovereign infrastructure running on Raspberry Pis and Hailo-8 accelerators. No cloud dependency.
 
-## Infrastructure
-- **Served from**: Gematria (Caddy TLS) + Pi fleet (5 nodes)
-- **DNS**: Cloudflare → Gematria → self-hosted
-- **Stack**: Sovereign — no vendor lock-in
+- [blackroad.io](https://blackroad.io) — Main platform
+- [docs.blackroad.io](https://docs.blackroad.io) — Documentation
+- [GitHub](https://github.com/BlackRoad-OS-Inc) — This organization
 
-## License
-**PROPRIETARY** — BlackRoad OS, Inc. All rights reserved. NOT open source.
+**Language:** HTML
 
----
-*BlackRoad OS — Remember the Road. Pave Tomorrow.*
+
+*© 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
